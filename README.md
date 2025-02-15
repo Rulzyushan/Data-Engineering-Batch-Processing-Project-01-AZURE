@@ -21,10 +21,13 @@ This project focuses on building a scalable and automated data pipeline to inges
    3. **Gold**: Store the final, transformed data ready for analytics and reporting.
 
 ### **Azure Data Factory**
-- Create a Linked Service for HTTP in ADF.
+- Source : Create a Linked Service for HTTP in ADF.
 - In the HTTP linked service configuration, Used the GitHub base URL for repository files and the Personal Access Token.
-- Create a Dataset for GitHub Files and Choose HTTP as the dataset type. Set the Linked Service to the HTTP linked service.
-- Choose the File format CSV.
+- Sink : Create Azure Data Lake Storage Linked Service.
+- Create Datasets : Source Dataset (HTTP CSV) and Sink Dataset (ADLS Parquet).
+![ADF-Ingestion-Pipeline](ADF-Ingestion-Pipeline.PNG?raw=true)
+  
 ### **Azure Cloud Setup**
+
 ### **Azure Cloud Setup**
 ### **Azure Cloud Setup**

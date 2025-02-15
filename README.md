@@ -9,4 +9,4 @@ This project focuses on building a scalable and automated data pipeline to inges
 - **Visualization & Insights:** Creating Power BI dashboards to analyze key metrics and trends.  
 
 ### **Architecture Diagram**
-![Architecture Diagram](Architecture-Diagram.png?raw=true
+![Architecture-Diagram](Architecture-Diagram.png?raw=true)

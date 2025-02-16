@@ -36,7 +36,11 @@ Azure Databricks will be used to transform raw data and move it through the Bron
 - Enable Credential Passthrough for user-level data access.
 - **Connecting Databricks to ADLS Gen2 :** Create a Service Principal-->Generate a Client Secret-->Grant Permissions to ADLSg2 using RBAC.
    - Set configurations - [DE-BP-Project-01-T-01.ipynb](DE-BP-Project-01-Transformation/DE-BP-Project-01-T-01.ipynb)
-   - Data transformations 1 - 
-   - Data transformations 2 - 
+   - Data transformations 1 - [DE-BP-Project-01-T-02.ipynb](DE-BP-Project-01-Transformation/DE-BP-Project-01-T-02.ipynb)
+   - Data transformations 2 - [DE-BP-Project-01-T-03.ipynb](DE-BP-Project-01-Transformation/DE-BP-Project-01-T-03.ipynb)
+- Create a linked service in Azure Data Factory to connect to Azure Databricks workspace.
+- Add two activities to previous copy_all_tables pipeline to transform data in bronze container and move it into gold container.
+       
 ### **Azure Cloud Setup**
+
 ### **Azure Cloud Setup**

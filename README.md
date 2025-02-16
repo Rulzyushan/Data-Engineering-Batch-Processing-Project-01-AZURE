@@ -27,7 +27,16 @@ This project focuses on building a scalable and automated data pipeline to inges
 - Create Datasets : Source Dataset (HTTP CSV) and Sink Dataset (ADLS Parquet).
 ![ADF-Ingestion-Pipeline](ADF-Ingestion-Pipeline.PNG?raw=true)
   
-### **Azure Cloud Setup**
+### **Azure Databricks**
+Azure Databricks will be used to transform raw data and move it through the Bronze, Silver, and Gold layers in Azure Data Lake.
 
+- Navigate to the Databricks resource.
+- Select Create Compute to set up a new cluster.
+- Configure the cluster as a Single Node.
+- Enable Credential Passthrough for user-level data access.
+- **Connecting Databricks to ADLS Gen2 :** Create a Service Principal-->Generate a Client Secret-->Grant Permissions to ADLSg2 using RBAC.
+   - Set configurations - [DE-BP-Project-01-T-01.ipynb](DE-BP-Project-01-Transformation/DE-BP-Project-01-T-01.ipynb)
+   - Data transformations 1 - 
+   - Data transformations 2 - 
 ### **Azure Cloud Setup**
 ### **Azure Cloud Setup**
